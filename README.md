@@ -6,8 +6,6 @@ Este repositório contém um simples gerador de árvores binárias de busca. Uma
 
 ### Inserção de Elementos
 
-A classe BinarySearchTree oferece um método insert(value) que permite a inserção de elementos na árvore. Ele mantém a propriedade de ordenação da árvore.
-
 ```javascript
 const bst = new BinarySearchTree();
 bst.insert(5);
@@ -18,8 +16,6 @@ bst.insert(4);
 ```
 
 ### Remoção de Elementos
-
-A classe BinarySearchTree também possui um método delete(value) para remover elementos da árvore. Ele mantém a propriedade de ordenação da árvore após a remoção.
 
 ```javascript
 bst.delete(3);
@@ -53,3 +49,5 @@ console.log(bst.inOrder()); // Exibe a ordem dos elementos na árvore
 bst.balanced(); // Equilibra a árvore
 bst.display(); // Exibe a árvore
 ```
+
+<img sr='img.png'>
