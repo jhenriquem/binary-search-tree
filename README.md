@@ -50,4 +50,4 @@ bst.balanced(); // Equilibra a árvore
 bst.display(); // Exibe a árvore
 ```
 
-<img sr='img.png'>
+![A screenshot of the Binary Search Trees assignment](https://github.com/jhenriquem/binary-search-tree/blob/main/img.png)
