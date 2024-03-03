@@ -114,7 +114,7 @@ class BinarySearchTree {
         prettyPrint(node.left, `${prefix}${isLeft ? "    " : "│   "}`, true);
       }
     }
-    console.log("Binary search tree")
+    console.log("Binary search tree : ");
     prettyPrint(node || this.root);
   }
 
@@ -146,3 +146,10 @@ class BinarySearchTree {
     this.display();
   }
 }
+
+const array = [
+  14, 14, 5, 77, 3, 4, 67, 3, 4, 6, 56, 5, 5243, 47, 45, 47, 8, 84, 33,
+];
+const bst = new BinarySearchTree();
+bst.insertArray(array);
+bst.display();
