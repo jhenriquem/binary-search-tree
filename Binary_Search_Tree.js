@@ -114,7 +114,7 @@ class BinarySearchTree {
         prettyPrint(node.left, `${prefix}${isLeft ? "    " : "│   "}`, true);
       }
     }
-
+    console.log("Binary search tree")
     prettyPrint(node || this.root);
   }
 
