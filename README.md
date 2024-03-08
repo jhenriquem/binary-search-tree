@@ -50,4 +50,10 @@ bst.balanced(); // Equilibra a árvore
 bst.display(); // Exibe a árvore
 ```
 
+## Instalação
+
+1. Clone o repositório para o seu ambiente local.
+2. Certifique-se de ter o Node.js sua máquina
+3. Execute o arquivo no terminal : `node Binary_Search_Tree.js `.
+
 ![A screenshot of the Binary Search Trees assignment](https://github.com/jhenriquem/binary-search-tree/blob/main/img.png)
